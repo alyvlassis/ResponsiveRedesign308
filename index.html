@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Scrolling Nav - Bootstrap Template</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+     <link href="styles.css" rel="stylesheet">
+  <!-- END LOADING BOOTSTRAP CSS -->
+
+      
+    <!-- Custom styles -->
+    <link href="custom.css" rel="stylesheet">
+
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">Kline's</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- The hrefs here must match the ID attribute of the corresponding divs/containers -->
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Flavors</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#images">Image</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#history">History</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h1 class="fw-bolder">Kline's Diary Bar</h1>
+                <p class="lead">Dairy bar in downtown Harrisonburg!</p>
+                <a class="btn btn-lg btn-light" href="#about">Learn More!</a>
+            </div>
+        </header>
+        <!-- About section - the ID attribute value here must match the corresponding href in navigation -->
+        <!-- For example - this section with id="about" must match the href="#about" in the navigation -->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>About Kline's Dairy Bar</h2>
+                        <p class="lead">Kline's Dairy Bar is a local ice cream shop in downtown Harrisonburg. We make fresh ice cream every morning. The flavor of the day is posted below.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services section-->
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Flavor of the Day</h2>
+                        <p class="lead">Kline's has new fresh flavors to offer each day. Find out the flavor being served today!</p>
+                        <ul>
+                            <li>Today's Flavor: Peanut Butter Crunch</li>
+                            <li>Other Flavors: Vinalla and Chocolate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Get in Touch</h2>
+                        <ul>
+                            <li>Location: 58 East Wolfe Street, Harrisonburg, VA 22802</li>
+                            <li>Phone: 540-434-6980</li>
+                            <li>Email: wolfesthburg@klinesdairybar.com</li>
+                            <li>Donation Request: donations@klinesdairybar.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Images -->
+         <section class="bg-light" id="images">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Check out the Dairy Bar!</h2>
+                    </div>
+                </div>
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="logo.jpg" class="d-block w-100" alt="Image 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="klines.jpeg" class="d-block w-100" alt="Image 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="cup.jpeg" class="d-block w-100" alt="Image 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="sign.jpeg" class="d-block w-100" alt="Image 4">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="icecream.jpeg" class="d-block w-100" alt="Image 5">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#imageCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#imageCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+                </div>
+            </div>
+        </section>
+        <!--history-->
+        <section id="history">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Behind the Bar</h2>
+                        <p class="lead">Kline's Dairy Bar has been around since 1943. Our old fashion way of making ice cream has kept our customers happy for 80 years! That is what makes our soft serve so rich and creamy is the specific process we have in making our fresh ice cream. Each morning the Downtown Harrisoburg shop makes ice cream for the day!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Kline's Dairy Bar &copy; Nov 2023</p></div>
+        </footer>
+
+
+
+
+
+        <!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE BELOW -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- DO NOT DELETE ABOVE - END LOADING JAVASCRIPT -->
+    </body>
+</html>
